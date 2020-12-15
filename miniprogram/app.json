@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/sentence/sentence"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "微习惯",
+        "iconPath": "images/tabbar/habit.png",
+        "selectedIconPath": "images/tabbar/habit_select.png"
+      },
+      {
+        "pagePath": "pages/sentence/sentence",
+        "text": "每日美句",
+        "iconPath": "images/tabbar/habit.png",
+        "selectedIconPath": "images/tabbar/habit_select.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

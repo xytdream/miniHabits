@@ -12,7 +12,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    
   },
 
   /**
@@ -26,7 +26,15 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    wx.request({
+      url: 'https://chp.shadiao.app/api.php',
+      method: "GET",
+      success: res=>{
+        let sentence = res.data
+        console.log(res)
+        this.setData({sentence})
+      }
+    })
   },
 
   /**

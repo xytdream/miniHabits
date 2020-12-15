@@ -1,19 +1,19 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/sentence/sentence"
+    "pages/sentence/sentence",
+    "pages/index/index"
   ],
   "tabBar": {
     "list": [
       {
-        "pagePath": "pages/index/index",
-        "text": "微习惯",
+        "pagePath": "pages/sentence/sentence",
+        "text": "每日美句",
         "iconPath": "images/tabbar/habit.png",
         "selectedIconPath": "images/tabbar/habit_select.png"
       },
       {
-        "pagePath": "pages/sentence/sentence",
-        "text": "每日美句",
+        "pagePath": "pages/index/index",
+        "text": "微习惯",
         "iconPath": "images/tabbar/habit.png",
         "selectedIconPath": "images/tabbar/habit_select.png"
       }
